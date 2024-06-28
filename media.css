@@ -1,0 +1,28 @@
+@media (min-width: 768px) {
+  .header h1 {
+    line-height: 2.4rem;
+    font-size: 2.0rem;
+  }
+
+
+  .header p img:hover {
+    transform: scale(4);
+    cursor: pointer;
+  }
+
+  main {
+    max-width: 1199px;
+    margin: 10px;
+  }
+
+  .container {
+    height: 78vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .box {
+    width: 30%;
+  }
+}
